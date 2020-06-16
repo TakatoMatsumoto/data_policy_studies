@@ -1,0 +1,46 @@
+Seatle、Kings countryで2014年5月から2015年5月に売れた物件のデータセット
+
+id: 物件のID
+
+price: 物件価格
+
+bedrooms: 寝室の数
+
+bathrooms: バスルームの数
+0.5はトイレのみのバスルーム(シャワーなし)
+
+sqft_living: living area(ガレージなどを除いた人が住めるスペースの広さ)　
+単位は平方フィート(square footage = sqft)
+1平方フィートは0.093平方メートル
+sqft_living = sqft_basement + sqft_above
+
+sqft_lot: 土地の広さ　単位は平方フィート
+
+floors: 何階建てか
+
+waterfront: 水辺に面しているかどうか
+0:面していない、1:面している
+
+view: 景色の良さ 4が最も良い
+
+condition: 物件の状態が良いかどうか、1は摩耗した状態で5が最も新しい状態
+
+grade :King County grading systemでの物件の評価
+
+sqft_above: 一階よりも上のフロアの広さの合計　単位は平方フィート
+
+sqft_basement: 地下室の広さ　単位は平方フィート
+
+yr_built: 建築年
+
+yr_renovated: リノベートした年
+
+zipcode: 郵便番号
+
+lat: 物件の緯度
+
+long: 物件の経度
+
+sqft_living15: その物件がある周囲、15物件のsqft_livingの平均 単位は平方フィート
+
+sqft_lot15:　その物件がある周囲、15物件のsqft_lotの平均 単位は平方フィート
